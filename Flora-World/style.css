@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-h {
+  transition: 0.4s ease;
+  transform: translateY(0px);
+  border-radius: 15%;
+}
+
+.img-h:hover {
+  transform: translateY(6px);
+}
+
+.img-f {
+  transition: 0.4s ease;
+  transform: translateX(0px);
+  padding: 3%;
+  border-radius: 15%;
+}
+
+.img-f:hover {
+  transform: translateX(4px);
+}
+
+.f-icon {
+  font-size: 2rem;
+  padding: 1%;
+  display: inline;
+  
+}
+
+.f-icon:hover{
+  color: #17a2b8;
+}
+.icon li {
+  list-style: none;
+  text-align: left;
+}
+
+.main-footer {
+  margin: 1% 0 0 0;
+  background-color: #343a40;
+  color: white;
+  padding: 1%;
+}
+
+.form-block input{
+  margin-top:8%;
+  margin-bottom: 10%;
+}
+
+.btn-row {
+  margin-top:3%;
+  margin-bottom: 5%;
+}
+
+.show-case{
+background-color:#17a2b8;
+}
+
+.navbar-logo
+{
+  width: 35px;
+  height: 35px;
+}
+
+.nav-item a:hover{
+  /* font-weight: bolder; */
+  color: white !important;
+}
+
+.nav-item a
+{
+  /* padding: 2px 10px !important; */
+  transition: 0.9s
+
+}
+.card
+{
+  border: none ;
+}
+
+.icon i
+{
+  font-size: 1.5rem;
+}
+
+.social-icons i
+{
+  font-size:2.5rem;
+  padding: 0 0.5rem;
+}
+
+.social-icons .fa-facebook-square:hover
+{
+  color: #3b5998;
+}
+
+.social-icons .fa-linkedin:hover
+{
+  color: #0077b5;
+}
+
+.social-icons .fa-twitter-square:hover
+{
+  color: #38A1F3;
+}
+
+.social-icons .fa-instagram:hover
+{
+  background: -webkit-linear-gradient(#8a3ab9,#bc2a8d,#e95950,#fccc63,#fbad50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.social-icons .fa-google:hover
+{
+  color: #34A853;
+}
+
+
+
+
